@@ -247,9 +247,9 @@ class _RakhiHomePageState extends State<RakhiHomePage> with TickerProviderStateM
   // --- CAPTCHA Logic ---
   List<Map<String, dynamic>> _generateCaptchaItems() {
     final List<Map<String, dynamic>> items = [
-      {'path': 'assets/images/yash1.jpg', 'isYash': true},
-      {'path': 'assets/images/yash2.jpg', 'isYash': true},
-      {'path': 'assets/images/yash3.jpg', 'isYash': true},
+      {'path': 'assets/images/yash1.JPG', 'isYash': true},
+      {'path': 'assets/images/yash2.JPG', 'isYash': true},
+      {'path': 'assets/images/yash3.JPG', 'isYash': true},
       {'path': 'assets/images/decoy1.jpg', 'isYash': false},
       {'path': 'assets/images/decoy2.jpg', 'isYash': false},
       {'path': 'assets/images/decoy3.jpg', 'isYash': false},
@@ -789,16 +789,16 @@ class _RakhiHomePageState extends State<RakhiHomePage> with TickerProviderStateM
   // --- MODULE 5: TORAN MEMORIES SECTION ---
   Widget _buildToranMemoriesSection() {
     final List<Map<String, String>> photoList = [
-      {'path': 'assets/images/photo1.jpg', 'caption': 'Bigger in age but Smaller in Height 😂'},
-      {'path': 'assets/images/photo2.jpg', 'caption': 'The Best Siblings Trio ✨'},
+      {'path': 'assets/images/photo1.JPG', 'caption': 'Bigger in age but Smaller in Height 😂'},
+      {'path': 'assets/images/photo2.JPG', 'caption': 'The Best Siblings Trio ✨'},
       {'path': 'assets/images/photo3.jpg', 'caption': 'Rakshabandhan 2K23 🤌'},
       {'path': 'assets/images/photo4.jpg', 'caption': 'Chocolate barfi 😋'},
       {'path': 'assets/images/photo5.jpg', 'caption': 'Me: Ghosting 👻 in your photos'},
       {'path': 'assets/images/photo6.jpg', 'caption': '1000s of photos 🖼 in 1 outfit '},
       {'path': 'assets/images/photo7.jpg', 'caption': 'Dhoti Outfit 💃'},
       {'path': 'assets/images/photo8.jpg', 'caption': 'Rakshabandhan 2K24 🧿'},
-      {'path': 'assets/images/photo9.jpg', 'caption': 'Our sleepy 😪 Ghar ke yuva 🤪'},
-      {'path': 'assets/images/photo10.jpg', 'caption': 'Hinch levi 6 ne mare garbe ghumvu 6, dholidaaa... 💃'},
+      {'path': 'assets/images/photo9.JPG', 'caption': 'Our sleepy 😪 Ghar ke yuva 🤪'},
+      {'path': 'assets/images/photo10.JPG', 'caption': 'Hinch levi 6 ne mare garbe ghumvu 6, dholidaaa... 💃'},
 
     ];
 
